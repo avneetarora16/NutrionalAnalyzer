@@ -1,0 +1,81 @@
+Category,Item,Serving Size(g),Calories,Total Fat(g),Saturated Fat(g),Trans Fat(g),Cholesterol(mg),Sodium(mg),Carbohydrates(g),Dietary Fiber(g),Sugars(g),Protein(g)
+Breakfast,Sausage Biscuit,121,420,28,6,0,35,1050,28,1,2,12
+Breakfast,"Ham, Egg, & Cheese Biscuit",176,400,24,12,0,175,1550,29,1,3,17
+Breakfast,"Sausage, Egg, & Cheese Biscuit",189,530,38,17,0,195,1440,29,1,3,19
+Breakfast,"Bacon, Egg & Cheese Biscuit",152,400,26,13,0,170,1270,29,1,3,13
+Breakfast,Fully Loaded Biscuit,238,640,45,20,0,225,2190,31,1,4,28
+Breakfast,Hash Browns - small,84,250,16,3.5,0,0,580,24,3,0,2
+Breakfast,Hash Browns - medium,169,500,33,7,0,0,1140,48,7,0,4
+Breakfast,Hash Browns - large,225,670,44,9,0,0,1530,65,9,0,5
+Breakfast,French Toast Sticks (3 piece),65,230,11,2,0,0,260,29,1,8,3
+Breakfast,French Toast Sticks (5 piece),109,380,18,3,0,0,430,49,2,13,5
+Breakfast,Quaker Oatmeal Maple Flavor (Artificial,172,170,3,1.5,0,5,270,32,3,12,4
+Breakfast,"Sausage, Egg, Cheese & Hash Brown Burrito",143,370,23,8,0,150,930,27,3,2,15
+Breakfast,EGG-NORMOUS Burrito,371,940,57,20,1,375,2460,68,7,5,38
+Breakfast,BK Ultimate Breakfast Platter,487,1230,70,23,0.5,380,2550,122,5,33,29
+Breakfast,Pancake and Sausage platter,217,610,31,9,0,80,1010,72,1,30,12
+Breakfast,CROISSAN'WICH Egg & Cheese,125,340,18,8,0,160,610,29,1,4,12
+Breakfast,"CROISSAN'WICH Sausage, Egg & Cheese",169,500,33,13,0,195,930,30,1,4,19
+Breakfast,"CROISSAN'WICH Ham, Egg & Cheese",156,370,19,8,0,175,1030,30,1,5,17
+Breakfast,"CROISSAN'WICH Bacon, Egg & Cheese",132,370,21,9,0,170,760,30,1,4,14
+Breakfast,Fully Loaded CROISSAN'WICH,218,610,40,17,0.5,225,1680,31,1,5,28
+Breakfast,KING CROISSAN'WICH  w/ Double Sausage,224,710,52,20,0.5,240,1420,31,1,5,29
+Breakfast,"KING CROISSAN'WICH w/ Sausage and
+Bacon",187,580,40,16,0.5,215,1260,31,1,5,23
+Breakfast,KING CROISSAN'WICH w/ Ham and Sausage,211,580,38,16,0.5,220,1530,31,1,5,27
+Beef & Pork,WHOPPER Sandwich,270,660,40,12,1.5,90,980,49,2,11,28
+Beef & Pork,WHOPPER Sandwich with Cheese,292,740,46,16,2,115,1340,50,2,11,32
+Beef & Pork,Bacon & Cheese WHOPPER Sandwich,303,790,51,17,2,125,1560,50,2,11,35
+Beef & Pork,BBQ Bacon WHOPPER Sandwich,303,800,51,17,2,125,1540,53,2,14,35
+Beef & Pork,DOUBLE WHOPPER Sandwich,354,900,58,20,3,175,1050,49,2,11,48
+Beef & Pork,DOUBLE WHOPPER Sandwich with Cheese,377,980,64,24,3,195,1410,50,2,11,52
+Beef & Pork,TRIPLE WHOPPER Sandwich with Cheese,461,1220,82,32,4.5,280,1470,50,2,11,71
+Beef & Pork,WHOPPER JR.  Sandwich,134,310,18,5,0.5,40,390,27,1,7,13
+Beef & Pork,BACON KING Sandwich,356,1150,79,31,3.5,240,2150,49,2,10,61
+Beef & Pork,BACON KING Jr. Sandwich,175,570,38,15,1.5,115,1050,27,1,6,29
+Beef & Pork,RODEO KING Sandwich,385,1250,82,31,3.5,230,2270,69,3,14,60
+Beef & Pork,Single Quarter Pound KING Sandwich,231,580,29,13,1.5,105,1310,49,2,10,32
+Beef & Pork,Double Quarter Pound KING Sandwich,338,900,54,25,3,210,1740,50,2,11,56
+Beef & Pork,Hamburger,99,240,10,3.5,0.5,35,380,26,1,6,13
+Beef & Pork,Cheeseburger,111,280,13,6,0.5,45,560,27,1,7,15
+Beef & Pork,Double Hamburger,136,350,18,7,1,70,410,26,1,6,21
+Beef & Pork,Double Cheeseburger,148,390,21,9,1.5,85,590,27,1,7,23
+Beef & Pork,Extra Long Cheeseburger,226,630,37,14,1.5,100,1050,45,2,9,29
+Beef & Pork,Bacon Cheeseburger,118,320,16,7,0.5,55,710,27,1,7,17
+Beef & Pork,Bacon Double Cheeseburger,155,420,24,10,1.5,90,740,27,1,7,25
+Chicken & Fish,Grilled Chicken Sandwich,229,470,19,3.5,0,85,850,39,6,6,37
+Chicken & Fish,Crispy Chicken Sandwich,228,670,41,7,0,60,1080,54,2,8,23
+Chicken & Fish,Spicy Crispy Chicken Sandwich,242,700,42,7,0,65,1140,57,3,8,25
+Chicken & Fish,Original Chicken Sandwich,219,660,40,7,0,75,1170,48,2,5,28
+Chicken & Fish,Bacon & Cheese Crispy Chicken Sandwich,262,800,52,13,1,95,1650,55,2,8,30
+Chicken & Fish,RODEO Crispy Chicken Sandwich,270,960,60,15,1,105,2230,72,3,14,33
+Chicken & Fish,Crispy Chicken Jr.,142,450,30,5,0,30,780,34,2,5,12
+Chicken & Fish,Spicy Crispy Chicken Jr.,142,390,21,3.5,0,30,740,37,2,6,12
+Chicken & Fish,Chicken Nuggets- 4pc,58,170,11,1.5,0,25,310,11,1,0,8
+Chicken & Fish,Chicken Nuggets- 6pc,88,260,16,2.5,0,35,470,16,1,0,12
+Chicken & Fish,Chicken Nuggets- 10 pc,146,430,27,4.5,0,55,780,27,2,0,20
+Chicken & Fish,Chicken Nuggets- 20 pc,292,860,54,9,0,115,1570,53,3,1,39
+Chicken & Fish,Chicken Fries - 9 pc.,91,280,17,2.5,0,35,850,20,1,1,13
+Chicken & Fish,BIG FISH Sandwich,188,510,28,4.5,0,30,1180,51,2,7,16
+Chicken & Fish,BK VEGGIE Burger ,219,390,17,2.5,0,5,980,41,5,9,21
+Chicken & Fish,Premium McWrap Chicken Sweet Chili (Grilled Chicken),10.3 oz (291 g),380,10,3,0,65,1090,47,3,12,27
+Chicken & Fish,Chicken McNuggets (4 piece),2.3 oz (65 g),190,12,2,0,25,360,12,1,0,9
+Chicken & Fish,Chicken McNuggets (6 piece),3.4 oz (97 g),280,18,3,0,40,540,18,1,0,13
+Chicken & Fish,Chicken McNuggets (10 piece),5.7 oz (162 g),470,30,5,0,65,900,30,2,0,22
+Chicken & Fish,Chicken McNuggets (20 piece),11.4 oz (323 g),940,59,10,0,135,1800,59,3,0,44
+Chicken & Fish,Chicken McNuggets (40 piece),22.8 oz (646 g),1880,118,20,1,265,3600,118,6,1,87
+Chicken & Fish,Filet-O-Fish,5 oz (142 g),390,19,4,0,40,590,39,2,5,15
+Salads,Garden Chicken Salad with Grilled Chicken - no dressing,313,340,15,6,0,100,770,16,7,4,39
+Salads,Garden Chicken Salad with Crispy Chicken - no dressing,287,440,25,7,0,75,930,31,3,4,25
+Salads,Club Salad with Grilled Chicken - no dressing,334,440,23,9,0,120,1220,16,7,5,44
+Salads,Club Salad with Crispy Chicken - no dressing,308,540,33,10,0,95,1380,31,3,5,31
+Salads,Garden Side Salad - w/o dressing,99,60,4,2.5,0,10,95,3,1,2,4
+Sides,Onion Rings - value,43,150,8,1.5,0,0,400,19,1,2,1
+Sides,Onion Rings - small,91,320,16,3,0,0,840,41,3,4,3
+Sides,Onion Rings - medium,117,410,21,3.5,0,0,1080,53,4,5,4
+Sides,Onion Rings - large,142,500,25,4.5,0,0,1310,64,5,7,5
+Sides,Cheesy Tots (8 pc),128,310,15,1,0,0,780,34,3,0,9
+Sides,French Fries - value (Salted),89,220,10,1.5,0,0,330,31,2,0,3
+Sides,French Fries - small  (Salted),128,320,14,2.5,0,0,480,44,3,0,4
+Sides,French Fries - medium (Salted),153,380,17,3,0,0,570,53,4,0,5
+Sides,French Fries - large (Salted),173,430,19,3.5,0,0,640,60,4,0,6

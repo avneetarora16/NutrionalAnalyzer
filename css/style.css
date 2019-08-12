@@ -1,0 +1,206 @@
+body{
+    
+}
+
+/* Creating a fixed navigation bar at the top of the screen */
+.navigation {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+/* Links inside the navigation bar */
+.navigation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first {
+    margin-left: 35%;
+}
+
+/* Change background on mouse hover */
+.navigation a:hover {
+    color: #F37022;
+}
+
+/* Change background of active tab */
+.active {
+    background-color: #666666;
+    color: white;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("../images/img1.jpg");
+     background-repeat: repeat;
+    /* Add the blur effect */
+    filter: blur(8px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}
+
+#table1 {
+     background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+
+#table2 {
+     background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+
+.overlay-container {
+     background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+
+.chart-margin {
+    margin-top: 30px;
+}
+
+#chart-1 {
+    margin: 30px 0;
+}
+
+#chart-2 {
+    margin: 30px 0;
+}
+
+#chart-1-text {
+    margin-bottom: 30px;
+}
+
+#chart-2-text {
+    margin-bottom: 30px;
+}
+
+.overlay-header-1 {
+    top: 15%;
+    background-color: transparent;
+    font-size: 24px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.overlay-header-2 {
+    top: 110%;
+    background-color: transparent;
+    font-size: 24px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+footer {
+    background: #282828;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    text-indent: 10px;
+     z-index: 2;
+}
+
+.socialm {
+    size: 5x;
+    color: white;
+    margin-right: 15px;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 15px auto 0px;
+    color: #F37022;
+}
+
+
+/*Charts css*/
+.chart-header {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.col-3 {
+    width: 25%;
+}
+
+
+.col-6 {
+    width: 50%;
+}
+
+@media only screen and (max-width: 700px){
+    .col-3 {
+        width: 100%;
+    }
+    .col-6 {
+        width: 100%;
+    }
+}
+
+
+ .arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.title {
+    fill: teal;
+    font-weight: bold;
+}
+.text-center {
+    text-align: center;
+}
