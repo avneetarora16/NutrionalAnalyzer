@@ -1,7 +1,7 @@
 "use strict"
 
-let data1 = [];
-let data2 = [];
+let mcdData = [];
+let bkData = [];
 
 
 /**********creating dropdown for Mcdonald's food items**********
@@ -33,10 +33,10 @@ d3.csv("data/Mcdonalds.csv").then(function (sourceData) {
         dataObj['Proteins'] = sourceData[i]['Protein(g)'];
         dataObj['Fats'] = sourceData[i]['Total Fat(g)'];
         dataObj['Sugar'] = sourceData[i]['Sugars(g)'];
-        data1.push(dataObj);
+        mcdData.push(dataObj);
     }
-    document.getElementById('chart-1-text').innerHTML = data1[0]['item'] + ' : ' + data1[0]['Calories'];
-    donutChart('chart-1', 0, data1);
+    document.getElementById('chart-1-text').innerHTML = mcdData[0]['item'] + ' : ' + mcdData[0]['Calories'] + ' calories ';
+    donutChart('chart-1', 0, mcdData);
 });
 
 //creating a similar dropdown for Burger King food items
@@ -57,10 +57,10 @@ d3.csv("data/Burgerking.csv").then(function (sourceData) {
         dataObj['Proteins'] = sourceData[i]['Protein(g)'];
         dataObj['Fats'] = sourceData[i]['Total Fat(g)'];
         dataObj['Sugar'] = sourceData[i]['Sugars(g)'];
-        data2.push(dataObj);
+        bkData.push(dataObj);
     }
-    document.getElementById('chart-2-text').innerHTML = data2[0]['item'] + ' : ' + data2[0]['Calories'];
-    donutChart('chart-2', 0, data2);
+    document.getElementById('chart-2-text').innerHTML = bkData[0]['item'] + ' : ' + bkData[0]['Calories'] + ' calories ';
+    donutChart('chart-2', 0, bkData);
 
 });
 
@@ -71,7 +71,7 @@ function dropdownChange(event) {
     let id = dropdown.options[dropdown.selectedIndex].value;
     let chartId = getChartId(elementId);
     let dataObj = getDataObj(elementId);
-    document.getElementById(chartId + '-text').innerHTML = dataObj[id]['item'] + ' : ' + dataObj[id]['Calories'];
+    document.getElementById(chartId + '-text').innerHTML = dataObj[id]['item'] + ' : ' + dataObj[id]['Calories'] + ' calories ';
     donutChart(chartId, id, dataObj);
 }
 
@@ -87,13 +87,28 @@ function getChartId(elementId) {
 //creating functions to get data object. 
 function getDataObj(elementId) {
     if (elementId == 'dropdown-1') {
-        return data1;
+        return mcdData;
     } else {
-        return data2;
+        return bkData;
     }
 }
 
+/**********d3- function animating donut charts**********
+  Author:
+  http://bl.ocks.org/erichoco/6694616
 
+  Modified by:
+  Avneet Arora
+*/
+//d3- mouse over function animating arc of donut chart
+function handleMouseOver(d, i) {
+    d3.select(this).transition().duration(300).attr('d', d3.arc().innerRadius(70).outerRadius(185 * 1.2));
+}
+
+//d3- mouse out function animating arc of donut chart
+function handleMouseOut(d, i) {
+    d3.select(this).transition().duration(300).attr('d', d3.arc().innerRadius(70).outerRadius(185));
+}
 
 /**********d3- function creating donut charts**********
   Author:
@@ -152,7 +167,7 @@ function donutChart(chartId, id, dataObj) {
         .on("mouseover", handleMouseOver)
         .on("mouseout", handleMouseOut)
         .attr('d', d3.arc()
-            .innerRadius(70) // This is the size of the donut hole
+            .innerRadius(70) // Inner radius creates the donut hole
             .outerRadius(radius)
         )
         .attr('fill', function (d) {
@@ -169,14 +184,14 @@ function donutChart(chartId, id, dataObj) {
         .enter()
         .append('text')
         .text(function (d) {
-            return d.data.key + ': ' + d.data.value
+            return d.data.key + ': ' + d.data.value + '(g)'
         })
         .attr("transform", function (d) {
             return "translate(" + arcGenerator.centroid(d) + ")";
             ``
         })
         .style("text-anchor", "middle")
-        .style("font-size", 17)
+        .style("font-size", 14)
         .style("color", "white");
 
 }

@@ -3,10 +3,12 @@
 let table;
 let data;
 
+//loading data from McDonald's csv
 d3.csv("data/Mcdonalds.csv").then(function (sourceData) {
     showTable(sourceData, "table1");
 });
 
+//loading data from Burger King's csv
 d3.csv("data/Burgerking.csv").then(function (sourceData) {
     showTable(sourceData, "table2");
 });
@@ -20,6 +22,7 @@ function showTable(tableData, id) {
         paginationSize: 25, // default amount of data on a page.
         paginationSizeSelector: [25, 50], // giving the option to change the amount of data on a page from 25 to 50.
         layout: "fitColumns",
+        groupBy: "Category",
         responsiveLayout: "collapse", //making the table responsive for different screen sizes.
         columns: [
             { //creating the first column showing row numbers
@@ -77,17 +80,17 @@ function showTable(tableData, id) {
                     {
                         title: "Total Fat(g)",
                         field: "Total Fat(g)",
-                        width: 100,
+                        width: 90,
                     },
                     {
                         title: "Saturated Fat(g)",
                         field: "Saturated Fat(g)",
-                        width: 100,
+                        width: 90,
                     },
                     {
                         title: "Trans Fat(g)",
                         field: "Trans Fat(g)",
-                        width: 100,
+                        width: 90,
                     },
         ],
     },
